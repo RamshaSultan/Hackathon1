@@ -66,3 +66,29 @@ nav a i {
 .my-img {
     display: flex;
 } */
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Left side text */
+.left-side {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Right side video */
+.right-side {
+    flex: 2;
+}
+
+/* Video styling */
+.video {
+    width: 100%;
+    height: auto;
+}
